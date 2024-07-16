@@ -1,0 +1,13 @@
+.category-section {
+    padding: 20px;
+}
+
+.category-section h2 {
+    margin-bottom: 20px;
+}
+
+.video-cards {
+    display: flex;
+    gap: 20px;
+}
+

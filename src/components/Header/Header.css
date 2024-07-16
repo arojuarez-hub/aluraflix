@@ -1,0 +1,55 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.botonHome,
+.botonNuevoVideo {
+    width: 180px;
+    height: 55px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: color 0.2s, background-color 0.2s, box-shadow 0.2s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  }
+  
+.botonHome:hover,
+.botonNuevoVideo:hover {
+    color:  #2271D1;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 15px  #2271D1;
+  }
+

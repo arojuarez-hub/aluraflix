@@ -1,0 +1,14 @@
+.container-banner {
+    background-image: url('/public/img/banner-home.png');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 20px;
+    text-align: center;
+    color: white;
+}
+
+.banner {
+    height: 100%;
+    width: 100%;
+    opacity: .6;
+}

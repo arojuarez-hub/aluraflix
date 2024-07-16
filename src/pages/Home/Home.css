@@ -1,0 +1,10 @@
+/* .home {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+} */
+
+.container {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,66 @@
+.destacado {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px;
+  background-color: #111dff00;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  color: white;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.description-video > :first-child {
+  font-size: 40px;
+  position: absolute;
+  top: 10px;
+  left: 100px;
+}
+
+.video-destacado {
+  width: 50%;
+  position: relative;
+  padding-bottom: 30%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.video-destacado iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 15px;
+}
+
+.description-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-width: 500px;
+  gap: 20px;
+}
+
+.description-video p {
+  text-align: left;
+  line-height: 2;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.container-titulo {
+  margin: 0 auto;
+}
+
+.titulo-video {
+  text-align: left;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  font-size: 46px;
+}
